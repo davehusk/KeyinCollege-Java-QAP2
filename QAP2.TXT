@@ -1,0 +1,39 @@
+Dave Husk
+SD-10 - Java QAP2
+
+Address.class  CreditCard.class  CreditCardDemo.class  Money.class  MyLine.class  MyPoint.class  MyRectangle.class  Person.class  TestMyLine.class  TestMyRectangle.class
+Address.java   CreditCard.java   CreditCardDemo.java   Money.java   MyLine.java   MyPoint.java   MyRectangle.java   Person.java   TestMyLine.java   TestMyRectangle.java
+
+$ java TestMyLine
+MyLine[begin=(1, 2), end=(4, 6)]
+Length of line1: 5.0
+MyLine[begin=(3, 5), end=(7, 8)]
+Length of line2: 5.0
+
+$ java TestMyRectangle
+MyRectangle[topLeft=(2, 3), bottomRight=(5, 7)]
+Area of rectangle: 12.0
+
+$ java CreditCardDemo
+Christie Diane 237J Harvey Hall, Menomonie, WI 54751
+Balance: $0.00
+Credit Limit: $1000.00
+Attempt to charge $200.00
+Charge: $200.00
+Balance: $200.00
+Attempt to charge $10.02
+Charge: $10.02
+Balance: $210.02
+Attempt to pay $25.00
+Payment: $25.00
+Balance: $185.02
+Attempt to charge $990.00
+Exceeds credit limit
+Balance: $185.02
+
+_________
+
+1. What was easy? The MyRectangle class was easy to implement.
+2. What was difficult? I had to make a few changes to the MyLine class to get it to work properly.
+3. What did you learn? I learned how to use the Math class to calculate the length of a line.
+4. How long did it take you? 1 hour
